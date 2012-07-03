@@ -7,7 +7,7 @@ namespace GenAlgorithmus
 {
     class Algorithmus
     {
-	
+	// test
 	    private int populationSize;
 	    private Gleichungssystem gls;
 	    private List<Individuum> oldPopulation;
