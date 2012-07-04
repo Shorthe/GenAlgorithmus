@@ -12,7 +12,7 @@ namespace GenAlgorithmus
 	    private List<Individuum> oldPopulation;
 	    private List<Individuum> newPopulation;
 	    private int generations = 5;
-	    private Random random = new Random();
+	    private static Random random = new Random();
 	
 	    public Algorithmus(int populationSize, Gleichungssystem aGls)
 	    {
